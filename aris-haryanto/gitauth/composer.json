@@ -1,0 +1,19 @@
+{
+    "name": "aris-haryanto/gitauth",
+    "description": "signin with github API",
+    "type": "API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aris Haryanto",
+            "email": "arisharyanto32@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "aris-haryanto\\gitauth\\": "vendor/aris-haryanto/gitauth/src"
+        }
+    },
+    "require": {}
+}
