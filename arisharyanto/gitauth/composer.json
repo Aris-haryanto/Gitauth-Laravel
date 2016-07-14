@@ -1,5 +1,5 @@
 {
-    "name": "aris-haryanto/gitauth",
+    "name": "arisharyanto/gitauth",
     "description": "signin with github API",
     "type": "API",
     "license": "MIT",
@@ -10,9 +10,12 @@
         }
     ],
     "autoload": {
+        "classmap": [
+            "database"
+        ],
         "psr-4": {
             "App\\": "app/",
-            "aris-haryanto\\gitauth\\": "vendor/aris-haryanto/gitauth/src"
+            "Arisharyanto\\gitauth\\": "packages/arisharyanto/gitauth/src"
         }
     },
     "require": {}
