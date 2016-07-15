@@ -23,6 +23,5 @@
         "php": ">=5.4.0"
     },
     "minimum-stability": "dev",
-    "version": "1.0",
-    "require": {}
+    "version": "1.0"
 }
