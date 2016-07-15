@@ -1,6 +1,6 @@
 <?php 
 
-namespace Arisharyanto\gitauth\Facade;
+namespace Arisharyanto\Gitauth\Facade;
  
 use Illuminate\Support\Facades\Facade;
  

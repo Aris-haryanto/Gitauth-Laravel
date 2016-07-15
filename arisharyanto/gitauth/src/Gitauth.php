@@ -1,6 +1,6 @@
 <?php 
 
-namespace Arisharyanto\gitauth;
+namespace Arisharyanto\Gitauth;
 
 class Gitauth{
     public static function say()
