@@ -3,6 +3,7 @@
     "description": "signin with github API",
     "type": "API",
     "license": "MIT",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "Aris Haryanto",
@@ -10,12 +11,8 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "database"
-        ],
         "psr-4": {
-            "App\\": "app/",
-            "Arisharyanto\\Gitauth\\": "packages/arisharyanto/gitauth/src"
+            "Arisharyanto\\Gitauth\\": "src/"
         }
     },
     "require": {}
