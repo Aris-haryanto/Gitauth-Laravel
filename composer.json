@@ -3,7 +3,7 @@
     "description": "signin with github API",
     "type": "API",
     "license": "MIT",
-    "keywords": ["laravel"],
+    "keywords": ["laravel","api","github","login"],
     "authors": [
         {
             "name": "Aris Haryanto",
@@ -15,5 +15,9 @@
             "Arisharyanto\\Gitauth\\": "src/"
         }
     },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "version": "1.0",
     "require": {}
 }
