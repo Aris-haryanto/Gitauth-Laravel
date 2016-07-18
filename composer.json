@@ -1,7 +1,7 @@
 {
     "name": "arisharyanto/gitauth",
     "description": "Create Login application with github API",
-    "type": "API Library",
+    "type": "library",
     "license": "MIT",
     "keywords": ["laravel","api","github","login"],
     "homepage": "https://bitbucket.org/Aris_Haryanto/gitauth-laravel",
