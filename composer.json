@@ -1,7 +1,7 @@
 {
     "name": "arisharyanto/gitauth",
     "description": "Create Login application with github API",
-    "type": "API",
+    "type": "API Library",
     "license": "MIT",
     "keywords": ["laravel","api","github","login"],
     "homepage": "https://bitbucket.org/Aris_Haryanto/gitauth-laravel",
@@ -22,7 +22,6 @@
     "require-dev": {
         "php": ">=5.4.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "version": "1.0"
 }

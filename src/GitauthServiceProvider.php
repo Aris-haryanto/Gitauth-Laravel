@@ -14,7 +14,7 @@ class GitauthServiceProvider extends ServiceProvider
     public function boot()
     {
         include __DIR__.'/routes.php';
-        // $this->package('packages/arisharyanto/gitauth/src', null, __DIR__);
+        $this->loadViewsFrom(__DIR__ . '/Views', 'gitauth');
     }
 
     /**
@@ -24,8 +24,6 @@ class GitauthServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadViewsFrom(__DIR__ . '/Views', 'view_gitauth');
-
         $this->app['gitauth'] = $this->app->share(function($app) {
             return new Gitauth;
         });

@@ -13,6 +13,6 @@ class GitauthController extends Controller {
 	    $welcome_message = 'Hello view sompret';
 	 
 	    $data = compact('page_title', 'welcome_message');
-	    return view('view_gitauth::welcome', $data);
+	    return view('gitauth::welcome', $data);
     }
 }
